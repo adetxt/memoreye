@@ -8,7 +8,7 @@ type NavbarProps = {
 
 export const Navbar: FC<NavbarProps> = ({ onSelect }) => {
   return (
-    <div className="w-full">
+    <div className="w-full py-3 px-3">
       <OpenDirectoryButton onSelect={onSelect} />
     </div>
   );

@@ -32,7 +32,7 @@ export const OpenDirectoryButton: FC<OpenDirectoryButtonProps> = ({
   };
 
   return (
-    <button className="btn btn-neutral btn-block" onClick={selectDir}>
+    <button className="btn btn-neutral" onClick={selectDir}>
       Select Directory
     </button>
   );

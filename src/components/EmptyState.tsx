@@ -7,7 +7,7 @@ export const EmptyState = ({ onSelect }: OpenDirectoryButtonProps) => {
   return (
     <div className="flex flex-col items-center justify-center h-full p-4 text-center">
       <img
-        src="https://via.placeholder.com/150"
+        src="/moments.svg"
         alt="Empty state illustration"
         className="mb-4 w-32 h-32"
       />

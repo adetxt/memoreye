@@ -2,6 +2,11 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 import { FileEntry } from "@tauri-apps/api/fs";
 import { convertFileSrc } from "@tauri-apps/api/tauri";
 import { FC, useEffect, useRef, useState } from "react";
+import {
+  TbArrowBigLeftFilled,
+  TbArrowBigRightFilled,
+  TbCircleX,
+} from "react-icons/tb";
 import Masonry from "react-masonry-css";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -55,9 +60,6 @@ export const Gallery: FC<GalleryProps> = ({ entries }) => {
   return (
     <>
       <div className="container mx-auto px-4 py-6" ref={parentRef as any}>
-        <div className="flex justify-between items-center mb-4">
-          <h1 className="text-3xl font-semibold">Photos</h1>
-        </div>
         <Masonry
           breakpointCols={breakpoints}
           className="flex -ml-4 w-auto"
@@ -86,6 +88,17 @@ export const Gallery: FC<GalleryProps> = ({ entries }) => {
       <Lightbox
         open={openLightbox}
         index={lightboxIndex}
+        render={{
+          iconPrev: () => (
+            <TbArrowBigLeftFilled className="w-8 h-8 text-gray-800 hover:text-gray-600" />
+          ),
+          iconNext: () => (
+            <TbArrowBigRightFilled className="w-8 h-8 text-gray-800 hover:text-gray-600" />
+          ),
+          iconClose: () => (
+            <TbCircleX className="w-9 h-9 text-red-500 hover:text-red-400" />
+          ),
+        }}
         close={() => setOpenLightbox(false)}
         slides={loadedPhotos}
       />
