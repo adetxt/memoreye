@@ -38,7 +38,7 @@
       },
       "protocol": {
         "asset": true,
-        "assetScope": ["$APPCACHE/**", "$RESOURCE/**"]
+        "assetScope": ["$APPCACHE/**", "$RESOURCE/**", "**"]
       }
     },
     "windows": [
