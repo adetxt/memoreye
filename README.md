@@ -1,18 +1,21 @@
-# 📸 Memoreye (WIP)
+<img width="64" alt="Screenshot 2024-06-02 at 12 19 39" src="https://github.com/adetxt/memoreye/assets/65135719/31ccf776-3b45-4759-b3a7-0f630f1ab69a">
 
-Memoreye is a minimal, clean, and simple desktop application built using Tauri. It allows you to easily browse and preview images in a directory with a sleek masonry layout. Currently, the app supports Mac OS, with plans to expand to other operating systems in the future.
+# Memoreye (WIP)
 
-## ✨ Features
+Welcome to Memoreye, a minimal, clean, and simple multi-OS application built with Tauri. Memoreye is designed to be a dead-simple, straightforward, and blazingly fast photo viewer. 
 
-- **Minimal and Clean Interface**: Focus on simplicity and usability.
-- **📁 Directory Selection**: Choose a directory and instantly view the images.
-- **🖼️ Masonry Layout**: Enjoy an aesthetically pleasing display of your photos.
-- **🔍 Image Preview**: Click on any image to view it in full size.
+## 🌟 Why Memoreye?
+
+After struggling to find a photo viewer app that was truly simple, direct, and incredibly fast, I decided to build my own solution. Many photo viewer apps are cluttered with unnecessary features, slow to load, or just plain complicated. Memoreye is different:
+
+- **Minimal and Clean Interface**: No clutter, just your photos.
+- **Dead-Simple Usage**: Select a directory and boom, your pictures are displayed in a sleek masonry layout.
 
 ## 📸 Screenshots
 
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
+<img width="640" alt="Screenshot 2024-06-02 at 12 19 39" src="https://github.com/adetxt/memoreye/assets/65135719/e3ef52e7-0291-46a3-9bbf-ee9176ff8fc7">
+<img width="640" alt="Screenshot 2024-06-02 at 12 20 14" src="https://github.com/adetxt/memoreye/assets/65135719/d97d85d4-ab94-4d7e-b5b6-2de657aafe1b">
+<img width="640" alt="Screenshot 2024-06-02 at 12 20 28" src="https://github.com/adetxt/memoreye/assets/65135719/7edd747e-4469-43cc-9235-d3121ac05062">
 
 ## 📥 Installation
 
